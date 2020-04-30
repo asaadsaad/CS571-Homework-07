@@ -1,6 +1,6 @@
 # CS571 Homework 07
 ## React Navigation
-Create a new React Native app with Expo-CLI and use React Navigation to support the following app structure:
+Create a new React Native app with Expo-CLI and use [React Navigation](https://reactnavigation.org/) to support the following app structure:
 * Drawer.Navigator
   * `Home` (Tab.Navigator)
     * `About` (Screen)
