@@ -3,11 +3,11 @@
 Create a new React Native app with Expo-CLI and use [React Navigation](https://reactnavigation.org/) to support the following app structure:
 * Drawer.Navigator
   * `Home` (Tab.Navigator)
-    * `About` (Screen)
-    * `Contact us` (Screen)
+    * `About` *Screen*
+    * `Contact us` *Screen*
   * `Profile` (Stack.Navigator)
-      * `Account` (Screen)
-      * `Security` (Screen)
+      * `Account` *Screen*
+      * `Security` *Screen*
   
 ### Implement the following screens features:
 * Use [Kanye Rest](https://kanye.rest/) API and fetch a random quote to be displayed within the `About` Screen. Create a button `Refresh` that will fetch a new quote when clicked.
