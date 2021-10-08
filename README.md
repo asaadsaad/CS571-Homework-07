@@ -1,17 +1,17 @@
 # CS571 Homework 07
 ## React Navigation
 Create a new React Native app with Expo-CLI and use [React Navigation](https://reactnavigation.org/) to support the following app structure:
-* Drawer.Navigator
-  * `Home` (Tab.Navigator)
-    * `About` *Screen*
-    * `Contact us` *Screen*
-  * `Profile` (Stack.Navigator)
-      * `Account` *Screen*
-      * `Security` *Screen*
-  
+* `Home` *(Bottom Tab Navigator)*
+    * `Services` *(Stack Navigator)*
+      * `Quotes`*Screen* 
+      * `Pic of the Day` *Screen*
+    * `About me` *Screen*
+      * `Hobby` *Reusable Component*
+
+
 ### Implement the following screens features:
-* Use [Kanye Rest](https://kanye.rest/) API and fetch a random quote to be displayed within the `About` Screen. Create a button `Refresh` that will fetch a new quote when clicked.
-* Both `About` and `Contact us` screens should have icons along with the title.
-* The `Account` Screen should have a button to go to `Security` Screen and pass an object with `user_id` as param. 
-* The `Contact us` Screen should have a button to go to `Security` Screen and pass an object `user_id` as param. 
-* The `Security` Screen will receive the `user_id` param and display it.
+* Use [Kanye Rest](https://kanye.rest/) API and fetch a random quote to be displayed within the `Quotes` Screen. Create a button `Refresh` that will fetch a new quote every time when clicked. 
+* Use [Lorem Picsum REST API](https://picsum.photos/300/300) to display a random image withing `Pic of the Day` Screen. Create a button `Refresh` that will fetch a new image every time when clicked. 
+* `About me` Screen has your picture, along with a short description about yourself. 
+  * Display an array of hobbies using a reusable `Hobby` component which will accept the hobby name along with a vector icon name that matches the hobby.
+* Copy your source code files into this clone and commit/push your code.
