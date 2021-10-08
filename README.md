@@ -11,7 +11,7 @@ Create a new React Native app with Expo-CLI and use [React Navigation](https://r
 
 ### Implement the following screens features:
 * Use [Kanye Rest](https://kanye.rest/) API and fetch a random quote to be displayed within the `Quotes` Screen. Create a button `Refresh` that will fetch a new quote every time when clicked. 
-* Use [Lorem Picsum REST API](https://picsum.photos/300/300) to display a random image withing `Pic of the Day` Screen. Create a button `Refresh` that will fetch a new image every time when clicked. 
+* Use [Lorem Picsum REST API](https://picsum.photos/) to display a random image withing `Pic of the Day` Screen. Create a button `Refresh` that will fetch a new image every time when clicked. 
 * `About me` Screen has your picture, along with a short description about yourself. 
   * Display an array of hobbies using a reusable `Hobby` component which will accept the hobby name along with a vector icon name that matches the hobby.
 * Copy your source code files into this clone and commit/push your code.
